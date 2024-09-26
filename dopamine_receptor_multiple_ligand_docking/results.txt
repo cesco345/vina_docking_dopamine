@@ -1,0 +1,256 @@
+Ligand_file:	ligand.txt
+azaperone_CID_15443.pdbqt
+droperidol_CID_3168.pdbqt
+raclopride_CID_3033769.pdbqt
+risperidone_CID_5073.pdbqt
+tiapride_CID_5467.pdbqt
+azaperone_CID_15443.pdbqt
+AutoDock Vina v1.2.5
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# J. Eberhardt, D. Santos-Martins, A. F. Tillack, and S. Forli  #
+# AutoDock Vina 1.2.0: New Docking Methods, Expanded Force      #
+# Field, and Python Bindings, J. Chem. Inf. Model. (2021)       #
+# DOI 10.1021/acs.jcim.1c00203                                  #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, J. Comp. Chem. (2010)                         #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see https://github.com/ccsb-scripps/AutoDock-Vina for  #
+# more information.                                             #
+#################################################################
+
+Output will be azaperone_CID_15443_out.pdbqt
+Scoring function : vina
+Rigid receptor: receptor.pdbqt
+Ligand: azaperone_CID_15443.pdbqt
+Grid center: X 10.37 Y 5.7263 Z -5.36861
+Grid size  : X 21.14 Y 20.62 Z 25.75
+Grid space : 0.375
+Exhaustiveness: 8
+CPU: 0
+Verbosity: 1
+
+Computing Vina grid ... done.
+Performing docking (random seed: 1872999758) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -9.728          0          0
+   2       -9.385      4.014      9.502
+   3       -8.778      2.685      3.424
+   4       -8.702      4.355      9.812
+   5       -8.557      1.306      1.931
+   6       -8.243      4.573      9.825
+   7       -8.136      3.444      4.164
+   8       -7.924       1.78      2.916
+   9       -7.441       2.76      4.135
+  10       -7.404      2.551       3.47
+droperidol_CID_3168.pdbqt
+AutoDock Vina v1.2.5
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# J. Eberhardt, D. Santos-Martins, A. F. Tillack, and S. Forli  #
+# AutoDock Vina 1.2.0: New Docking Methods, Expanded Force      #
+# Field, and Python Bindings, J. Chem. Inf. Model. (2021)       #
+# DOI 10.1021/acs.jcim.1c00203                                  #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, J. Comp. Chem. (2010)                         #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see https://github.com/ccsb-scripps/AutoDock-Vina for  #
+# more information.                                             #
+#################################################################
+
+Output will be droperidol_CID_3168_out.pdbqt
+Scoring function : vina
+Rigid receptor: receptor.pdbqt
+Ligand: droperidol_CID_3168.pdbqt
+Grid center: X 10.37 Y 5.7263 Z -5.36861
+Grid size  : X 21.14 Y 20.62 Z 25.75
+Grid space : 0.375
+Exhaustiveness: 8
+CPU: 0
+Verbosity: 1
+
+Computing Vina grid ... done.
+Performing docking (random seed: -1428734501) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -10.71          0          0
+   2       -10.69      1.348      2.539
+   3       -10.57      3.874      10.11
+   4       -10.07      2.807      3.504
+   5       -9.766      3.885      10.07
+   6       -9.589      2.581      4.111
+   7       -9.526      3.811      9.846
+   8       -9.447      3.578       9.87
+   9       -9.362      1.925      2.837
+  10        -8.93      1.646      2.852
+raclopride_CID_3033769.pdbqt
+AutoDock Vina v1.2.5
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# J. Eberhardt, D. Santos-Martins, A. F. Tillack, and S. Forli  #
+# AutoDock Vina 1.2.0: New Docking Methods, Expanded Force      #
+# Field, and Python Bindings, J. Chem. Inf. Model. (2021)       #
+# DOI 10.1021/acs.jcim.1c00203                                  #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, J. Comp. Chem. (2010)                         #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see https://github.com/ccsb-scripps/AutoDock-Vina for  #
+# more information.                                             #
+#################################################################
+
+Output will be raclopride_CID_3033769_out.pdbqt
+Scoring function : vina
+Rigid receptor: receptor.pdbqt
+Ligand: raclopride_CID_3033769.pdbqt
+Grid center: X 10.37 Y 5.7263 Z -5.36861
+Grid size  : X 21.14 Y 20.62 Z 25.75
+Grid space : 0.375
+Exhaustiveness: 8
+CPU: 0
+Verbosity: 1
+
+Computing Vina grid ... done.
+Performing docking (random seed: -1437352222) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -7.474          0          0
+   2       -7.317      2.673       4.24
+   3       -7.231      1.024      2.754
+   4        -6.91      3.978      6.112
+   5        -6.65      4.699      8.821
+   6       -6.598      4.194      7.546
+   7       -6.592       4.26      7.041
+   8       -6.591      3.344      6.994
+   9       -6.568      1.531      3.176
+  10       -6.518      4.405      6.408
+risperidone_CID_5073.pdbqt
+AutoDock Vina v1.2.5
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# J. Eberhardt, D. Santos-Martins, A. F. Tillack, and S. Forli  #
+# AutoDock Vina 1.2.0: New Docking Methods, Expanded Force      #
+# Field, and Python Bindings, J. Chem. Inf. Model. (2021)       #
+# DOI 10.1021/acs.jcim.1c00203                                  #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, J. Comp. Chem. (2010)                         #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see https://github.com/ccsb-scripps/AutoDock-Vina for  #
+# more information.                                             #
+#################################################################
+
+Output will be risperidone_CID_5073_out.pdbqt
+Scoring function : vina
+Rigid receptor: receptor.pdbqt
+Ligand: risperidone_CID_5073.pdbqt
+Grid center: X 10.37 Y 5.7263 Z -5.36861
+Grid size  : X 21.14 Y 20.62 Z 25.75
+Grid space : 0.375
+Exhaustiveness: 8
+CPU: 0
+Verbosity: 1
+
+Computing Vina grid ... done.
+Performing docking (random seed: -1928015556) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -12.05          0          0
+   2       -11.91      2.031      2.756
+   3       -11.48      1.825      2.954
+   4        -11.4      1.453      2.305
+   5       -11.39      3.825      10.39
+   6       -10.94      3.451      9.988
+   7       -10.77      4.682      10.28
+   8       -10.74      2.281      3.627
+   9       -10.33      4.043      10.55
+  10       -10.31      1.894      3.121
+tiapride_CID_5467.pdbqt
+AutoDock Vina v1.2.5
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# J. Eberhardt, D. Santos-Martins, A. F. Tillack, and S. Forli  #
+# AutoDock Vina 1.2.0: New Docking Methods, Expanded Force      #
+# Field, and Python Bindings, J. Chem. Inf. Model. (2021)       #
+# DOI 10.1021/acs.jcim.1c00203                                  #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, J. Comp. Chem. (2010)                         #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see https://github.com/ccsb-scripps/AutoDock-Vina for  #
+# more information.                                             #
+#################################################################
+
+Output will be tiapride_CID_5467_out.pdbqt
+Scoring function : vina
+Rigid receptor: receptor.pdbqt
+Ligand: tiapride_CID_5467.pdbqt
+Grid center: X 10.37 Y 5.7263 Z -5.36861
+Grid size  : X 21.14 Y 20.62 Z 25.75
+Grid space : 0.375
+Exhaustiveness: 8
+CPU: 0
+Verbosity: 1
+
+Computing Vina grid ... done.
+Performing docking (random seed: 1489958165) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -6.997          0          0
+   2       -6.976      4.314      8.556
+   3       -6.906      4.389      8.389
+   4       -6.881      3.702      8.106
+   5       -6.841      3.469      7.975
+   6       -6.745      3.889      7.847
+   7       -6.735       2.45      3.801
+   8       -6.656      4.294      7.966
+   9       -6.589      3.766      5.342
+  10        -6.53      2.857      4.894

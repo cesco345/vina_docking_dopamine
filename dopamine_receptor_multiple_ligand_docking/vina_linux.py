@@ -21,5 +21,5 @@ for i in range(len(arr_file)):
     ligand_file = arr_file[i].strip()  # Strip newline characters
     print(ligand_file)  # Print ligand file name
     # Execute Vina command
-    vina_command = f"vina --config conf.txt --ligand {ligand_file} --log {ligand_file}_log.log"
+    vina_command = f"vina --config conf.txt --ligand {ligand_file}"
     os.system(vina_command)

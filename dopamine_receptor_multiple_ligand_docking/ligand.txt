@@ -1,0 +1,5 @@
+azaperone_CID_15443.pdbqt
+droperidol_CID_3168.pdbqt
+raclopride_CID_3033769.pdbqt
+risperidone_CID_5073.pdbqt
+tiapride_CID_5467.pdbqt
